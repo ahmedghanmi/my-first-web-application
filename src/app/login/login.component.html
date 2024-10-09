@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+</head>
+<body style="background-image: url('assets/background.jpg'); background-size: cover; background-position: center; font-family: 'Arial', sans-serif; margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                    <div class="text-center">
+                        <h1>Login</h1>   
+                        <small id="emailHelp" class="form-text text-muted">Please enter your email and password</small>
+                    </div>
+                    
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="form-group">
+                            <label  for="exampleInputEmail1"  style="text-align: left;">Email address</label>
+                            <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label text-align="left" for="exampleInputPassword1">Password</label>
+                            <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+
+                    <a style="color: #fff; margin: 10px;" routerLink="/signup">New user? Click to signup!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

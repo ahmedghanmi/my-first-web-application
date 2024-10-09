@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "aaaaaa",
+      "email": "ccccc",
+      "Mobile": 345678,
+      "city": "kmfjfd"
+    },
+    {
+      "id": 2,
+      "name": "kkkkk",
+      "email": "kkkk@",
+      "Mobile": 2566454,
+      "city": "sgrrgrger"
+    },
+    {
+      "id": 3,
+      "name": "ttttt",
+      "email": "dddddd",
+      "Mobile": 334455,
+      "city": "dqsgsgsg"
+    },
+    {
+      "id": 6,
+      "name": "fsdfsfs",
+      "email": "sdfsdfsd",
+      "Mobile": 35,
+      "city": "sdfsdf"
+    }
+  ],
+  "signupusers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullname": "ahmed ghanmi",
+      "email": "ahmedghanmi@gmail.com",
+      "mobile": 1234,
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
